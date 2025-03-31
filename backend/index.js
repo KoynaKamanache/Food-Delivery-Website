@@ -7,6 +7,8 @@ const mongoDB = require('./db');
     await mongoDB();
 })();
 
+app.use('/images', express.static('public/images'));
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })

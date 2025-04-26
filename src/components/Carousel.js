@@ -13,19 +13,19 @@ function Carousel() {
     </form>
             </div>
             <div className="carousel-item active">
-            <img src="/burger.jpg" className="d-block w-100" alt="..." style={{filter:"brightness(30%)"}}/>
+            <img src="http://localhost:4000/images/burger.jpg" className="d-block w-100" alt="..." style={{filter:"brightness(30%)"}}/>
             </div>
             <div className="carousel-item">
-            <img src="/biryani.jpg" className="d-block w-100" alt="..." style={{filter:"brightness(30%)"}}/>
+            <img src="http://localhost:4000/images/biryani.jpg" className="d-block w-100" alt="..." style={{filter:"brightness(30%)"}}/>
             </div>
             <div className="carousel-item ">
-            <img src="/dessert.jpg" className="d-block w-100 " alt="..." style={{filter:"brightness(30%)"}}/>
+            <img src="http://localhost:4000/images/dessert.jpg" className="d-block w-100 " alt="..." style={{filter:"brightness(30%)"}}/>
             </div>
             <div className="carousel-item ">
-            <img src="/momos.jpg" className="d-block w-100" alt="..." style={{filter:"brightness(30%)"}}/>
+            <img src="http://localhost:4000/images/momos.jpg" className="d-block w-100" alt="..." style={{filter:"brightness(30%)"}}/>
             </div>
             <div className="carousel-item ">
-            <img src="/soups.jpg" className="d-block w-100 " alt="..." style={{filter:"brightness(30%)"}}/>
+            <img src="http://localhost:4000/images/soups.jpg" className="d-block w-100 " alt="..." style={{filter:"brightness(30%)"}}/>
             </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
